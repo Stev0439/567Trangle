@@ -39,7 +39,7 @@ class TestTriangles(unittest.TestCase):
         self.assertEqual(classifyTriangle(3,5,3),'Isoceles','3,5,3 is an Isoceles triangle')
         
     def testScaleneTriangle(self): 
-        self.assertEqual(classifyTriangle(1,2,3),'Scalene','1,2,3 is a Scalene triangle')
+        self.assertEqual(classifyTriangle(4,5,6),'Scalene','4,5,6 is a Scalene triangle')
         
     def testLowerBoundA(self): 
         self.assertEqual(classifyTriangle(-1,2,3),'InvalidInput','This is not a valid input')
